@@ -11,6 +11,12 @@
 		458670242A53C9D2006A8E1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458670232A53C9D2006A8E1D /* ContentView.swift */; };
 		458670262A53C9D4006A8E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458670252A53C9D4006A8E1D /* Assets.xcassets */; };
 		458670292A53C9D4006A8E1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458670282A53C9D4006A8E1D /* Preview Assets.xcassets */; };
+		458670302A53CBAC006A8E1D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4586702F2A53CBAB006A8E1D /* ViewModel.swift */; };
+		458670322A53CEB5006A8E1D /* PointsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458670312A53CEB5006A8E1D /* PointsButton.swift */; };
+		458670342A53D94F006A8E1D /* TeamNamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458670332A53D94F006A8E1D /* TeamNamesView.swift */; };
+		458BF7BB2A541F410095DF5E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458BF7BA2A541F410095DF5E /* Launch Screen.storyboard */; };
+		459569222A53EEF100AF7D0F /* TeamNamesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459569212A53EEF100AF7D0F /* TeamNamesHeaderView.swift */; };
+		45A5CCAD2A53E9370084AFC1 /* TeamNamesViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5CCAC2A53E9370084AFC1 /* TeamNamesViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,14 @@
 		458670232A53C9D2006A8E1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		458670252A53C9D4006A8E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		458670282A53C9D4006A8E1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4586702F2A53CBAB006A8E1D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		458670312A53CEB5006A8E1D /* PointsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsButton.swift; sourceTree = "<group>"; };
+		458670332A53D94F006A8E1D /* TeamNamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamNamesView.swift; sourceTree = "<group>"; };
+		458BF7BA2A541F410095DF5E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		458BF7BE2A5420E50095DF5E /* court counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "court counter.png"; path = "../../../../Downloads/court counter.png"; sourceTree = "<group>"; };
+		458BF7BF2A5421C70095DF5E /* Court-Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Court-Counter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		459569212A53EEF100AF7D0F /* TeamNamesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamNamesHeaderView.swift; sourceTree = "<group>"; };
+		45A5CCAC2A53E9370084AFC1 /* TeamNamesViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamNamesViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 		458670152A53C9D1006A8E1D = {
 			isa = PBXGroup;
 			children = (
+				458BF7BA2A541F410095DF5E /* Launch Screen.storyboard */,
 				458670202A53C9D2006A8E1D /* Court Counter */,
 				4586701F2A53C9D2006A8E1D /* Products */,
 			);
@@ -51,10 +66,17 @@
 		458670202A53C9D2006A8E1D /* Court Counter */ = {
 			isa = PBXGroup;
 			children = (
+				458BF7BF2A5421C70095DF5E /* Court-Counter-Info.plist */,
+				458BF7BE2A5420E50095DF5E /* court counter.png */,
 				458670212A53C9D2006A8E1D /* Court_CounterApp.swift */,
 				458670232A53C9D2006A8E1D /* ContentView.swift */,
 				458670252A53C9D4006A8E1D /* Assets.xcassets */,
 				458670272A53C9D4006A8E1D /* Preview Content */,
+				4586702F2A53CBAB006A8E1D /* ViewModel.swift */,
+				458670312A53CEB5006A8E1D /* PointsButton.swift */,
+				458670332A53D94F006A8E1D /* TeamNamesView.swift */,
+				45A5CCAC2A53E9370084AFC1 /* TeamNamesViewViewModel.swift */,
+				459569212A53EEF100AF7D0F /* TeamNamesHeaderView.swift */,
 			);
 			path = "Court Counter";
 			sourceTree = "<group>";
@@ -125,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458BF7BB2A541F410095DF5E /* Launch Screen.storyboard in Resources */,
 				458670292A53C9D4006A8E1D /* Preview Assets.xcassets in Resources */,
 				458670262A53C9D4006A8E1D /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				458670242A53C9D2006A8E1D /* ContentView.swift in Sources */,
+				459569222A53EEF100AF7D0F /* TeamNamesHeaderView.swift in Sources */,
+				458670302A53CBAC006A8E1D /* ViewModel.swift in Sources */,
+				458670322A53CEB5006A8E1D /* PointsButton.swift in Sources */,
 				458670222A53C9D2006A8E1D /* Court_CounterApp.swift in Sources */,
+				458670342A53D94F006A8E1D /* TeamNamesView.swift in Sources */,
+				45A5CCAD2A53E9370084AFC1 /* TeamNamesViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +297,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Court Counter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Court-Counter-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Court Counter";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +326,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Court Counter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Court-Counter-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Court Counter";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
